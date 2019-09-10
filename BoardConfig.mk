@@ -207,6 +207,10 @@ PRODUCT_VENDOR_MOVE_ENABLED := true
 # Use mke2fs to create ext4 images
 TARGET_USES_MKE2FS := true
 
+# VNDK
+BOARD_VNDK_VERSION := current
+PRODUCT_EXTRA_VNDK_VERSIONS := 28
+
 # Wifi
 BOARD_HAS_QCOM_WLAN := true
 BOARD_HAS_QCOM_WLAN_SDK := true
