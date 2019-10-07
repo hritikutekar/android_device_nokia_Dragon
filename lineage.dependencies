@@ -1,7 +1,7 @@
 [
   {
-    "repository" : "RaghuVarma331/vendor_nokia_drg_sprout",
-    "target_path": "vendor/nokia/DRG_sprout",
+    "repository" : "RaghuVarma331/vendor_nokia_dragon",
+    "target_path": "vendor/nokia/Dragon",
     "branch": "pie",
     "remote": "github"	
   },
