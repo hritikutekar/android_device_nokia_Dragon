@@ -14,5 +14,5 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_Dragon.mk \
+    $(LOCAL_DIR)/aosp_Dragon.mk \
 

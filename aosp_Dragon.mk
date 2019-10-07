@@ -24,7 +24,7 @@ $(call inherit-product, device/nokia/Dragon/device.mk)
 
 # Inherit some common Lineageos stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # A/B updater
 AB_OTA_UPDATER := true
@@ -62,7 +62,7 @@ PRODUCT_STATIC_BOOT_CONTROL_HAL := \
     libz
 
 # Device identifiers
-PRODUCT_NAME := lineage_Dragon
+PRODUCT_NAME := aosp_Dragon
 PRODUCT_BRAND := nokia
 PRODUCT_DEVICE := Dragon
 PRODUCT_MANUFACTURER := nokia
