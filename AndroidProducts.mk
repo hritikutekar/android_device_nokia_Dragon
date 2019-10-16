@@ -14,5 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_Dragon.mk \
+    $(LOCAL_DIR)/lineage_Dragon.mk
+
+COMMON_LUNCH_CHOICES := \
+    lineage_Dragon-userdebug \
+    lineage_Dragon-eng
 
