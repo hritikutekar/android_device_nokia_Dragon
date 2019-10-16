@@ -154,10 +154,6 @@ TARGET_TAP_TO_WAKE_NODE := "/sys/class/input/input2/wake_gesture"
 # EXFAT
 TARGET_EXFAT_DRIVER := sdfat
 
-# FM
-BOARD_HAVE_QCOM_FM := true
-BOARD_HAS_QCA_FM_SOC := "cherokee"
-
 # GPS
 TARGET_NO_RPC := true
 USE_DEVICE_SPECIFIC_GPS := true
