@@ -3,7 +3,7 @@
     "repository" : "RaghuVarma331/vendor_nokia_dragon",
     "target_path": "vendor/nokia/Dragon",
     "branch": "pie",
-    "remote": "github"	
+    "remote": "gitlab"	
   },
   {
     "repository" : "RaghuVarma331/kernel_nokia_sdm660",
@@ -14,7 +14,7 @@
   {
     "repository": "LineageOS/android_packages_resources_devicesettings",
     "target_path": "packages/resources/devicesettings",
-    "branch": "lineage-16.0",
+    "branch": "lineage-17.0",
     "remote": "github"
   }
 ]
