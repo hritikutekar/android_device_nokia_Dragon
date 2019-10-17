@@ -74,7 +74,7 @@ PRODUCT_MODEL := Nokia 6.1 Plus
 PRODUCT_GMS_CLIENTID_BASE := android-nokia
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE="DRG_sprout" \
+    TARGET_DEVICE="Dragon" \
     PRODUCT_NAME="Dragon" \
     PRIVATE_BUILD_DESC="Dragon_00WW-user 9 PPR1.180610.011 00WW_3_54H release-keys"
 
