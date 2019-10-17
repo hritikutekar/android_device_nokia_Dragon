@@ -25,9 +25,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # Inherit from Dragon device
 $(call inherit-product, device/nokia/Dragon/device.mk)
 
-# Inherit some common Lineageos stuff.
+# Inherit some common Aosp stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+
+# Google Apps
+TARGET_GAPPS_ARCH := arm64
 
 # A/B updater
 AB_OTA_UPDATER := true
@@ -65,7 +68,7 @@ PRODUCT_STATIC_BOOT_CONTROL_HAL := \
     libz
 
 # Device identifiers
-PRODUCT_NAME := lineage_Dragon
+PRODUCT_NAME := aosp_Dragon
 PRODUCT_BRAND := nokia
 PRODUCT_DEVICE := Dragon
 PRODUCT_MANUFACTURER := nokia
@@ -74,7 +77,7 @@ PRODUCT_MODEL := Nokia 6.1 Plus
 PRODUCT_GMS_CLIENTID_BASE := android-nokia
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE="DRG_sprout" \
+    TARGET_DEVICE="Dragon" \
     PRODUCT_NAME="Dragon" \
     PRIVATE_BUILD_DESC="Dragon_00WW-user 9 PPR1.180610.011 00WW_3_54H release-keys"
 
